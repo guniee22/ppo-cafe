@@ -1,0 +1,149 @@
+@charset "utf-8";
+.box{
+    padding: 5% 0;
+}
+.title-con{
+    display:flex;
+    justify-content: center;
+}
+.title-con h2{
+    padding:0 50px;
+}
+.news{
+    margin:0;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.boad-wrap{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.boad-top{
+    width:100%;
+    float: left;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+.t-s-w{
+    display: inline-block;
+    float:right;
+}
+select[name=s-t]{
+    background-color: #ffd520;
+    border: none;
+    padding: 5px;
+}
+input[name=search]{
+    padding: 5px;
+    border: none;
+}
+input[name=button]{
+    padding: 5px;
+    background-color: #ffd520;
+    border: none;
+}
+
+table{
+    border: 1px solid black;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+.boad{
+    width: 100%;
+    border: none;
+    margin-top: 50px;
+}
+.boad td:first-child{
+    text-align: center;
+    width: 10%;
+}
+.boad td:last-child{
+    text-align: center;
+    width: 15%;
+}
+.boad td{
+    height: 40px;
+}
+.boad td:nth-child(2){
+    padding-left: 20px;
+}
+.boad tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+.boad tr:first-child{
+    background-color: #ffd520;
+    height: 40px;
+}
+.boad th,
+.boad td{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.boad th{
+    border-bottom: 5px double black;
+}
+.boad td{
+    border-color: #aaaaaa;
+}
+.boad tr:last-child td{
+    text-align: right;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+input[name=write]{
+    padding: 10px
+}
+.boad tr:nth-child(even){
+    background-color: #ffffff;
+}
+.boad tr:last-child td{
+    border:none;
+}
+
+@media screen and (max-width:1000px){
+    h2.news,
+    h2.event,
+    h2.store{
+        font-size: 3vw;
+        display:block !important;
+        
+    }
+    .boad-wrap{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width:640px){
+    h2.news,
+    h2.event,
+    h2.store{
+        font-size: 3.5vw;
+    }
+    
+}
+@media screen and (max-width:450px){
+    h2.news,
+    h2.event,
+    h2.store{
+        font-size: 5vw ;
+    }
+    input[name=search]{
+        width: 130px; 
+    }
+    .t-s-w{
+        margin-right: 50px;
+        
+    }
+    select[name=s-t]{
+        width: 65px;
+    }
+}

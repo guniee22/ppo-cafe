@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keyword" content="cafe,dessert,coffee,dessert cafe">
+        <meta name="description" content="cafe,dessert,coffee,dessert cafe">
+        <meta name="author" content="kim bo ram">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="ppo-cafe">
+        <meta property="og:description" content="cafe,dessert,coffee,dessert cafe">
+        <meta property="og:image" content="http://guniee22.dothome.co.kr/cafe/images/logo5.png">
+        <meta property="og:url" content="http://guniee22.dothome.co.kr/cafe/">
+        <title>PPO-Cafe</title>
+        <link rel="icon" type="image/x-icon" href="images/pav.png">
+        <!-- favicon 크기 32px 32px 사이즈 png -->
+        <!-- 아이콘 스타일 css link 연결 -->
+        <!-- plugin 스타일 css link 연결 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!-- jQuery 이용하려면 jQuery 라이브러리 연결 -->
+        <!-- plugin jQuery 연결 -->
+        <link rel="stylesheet" href="css/common.css">
+        <script src="js/common.js"></script>
+        <script src="js/index.js"></script>
+        
+        <style>
+            /* 내부 css
+            현재 문서에만 적용됨 */
+        </style>
+        <script>
+            // Javascript, jQuery 내부 script 작성
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto:true,
+                    controls:false,
+                });
+                /* $('.slider2').bxSlider({
+                    auto:false,
+                }); */
+            });
+
+        </script>
+        <style>
+            /* .choice-wrap .bx-wrapper .bx-controls-direction a{
+                width: 50px;
+                height: 300px;
+                background-color: transparent;
+                
+
+            }
+            .choice-wrap .bx-wrapper .bx-controls-direction a{
+                width: 50px;
+                height: 300px;
+                background-color:transparent;
+
+            }
+            
+            .choice-wrap .bx-wrapper .bx-prev{
+                background-image: url(images/arrow-left.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+                top:20% !important;
+                left: -5%;
+            }
+            .choice-wrap .bx-wrapper .bx-prev:hover,
+            .choice-wrap .bx-wrapper .bx-prev:focus{
+                background-position: center;
+            }
+            .choice-wrap .bx-wrapper .bx-next{
+                background-image: url(images/arrow-right.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+                top:20% !important;
+                right:-5%;
+            }
+            .choice-wrap .bx-wrapper .bx-next:hover{
+                background-position: center;
+            } */
+            .bx-wrapper .bx-pager.bx-default-pager a{
+                background-color: #ffd520;
+            }
+            .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
+                background-color:#ffd520;
+                width: 20px;
+                height: 10px;
+                border-radius: 45%;
+                transition: 0.5s;
+            }
+            /* .choice-wrap .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+            .choice-wrap .bx-wrapper .bx-pager.bx-default-pager a.active, 
+            .choice-wrap .bx-wrapper .bx-pager.bx-default-pager a:focus{
+                background-color:#3dbf4e;
+                width: 20px;
+                height: 10px;
+                
+                transition: 0.5s;
+            } */
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-wrap">
+                <div class="logo-nav">
+                    <h1>
+                        <a href="index.html">
+                            <img src="images/logo5.png" alt="로고이미지">
+                        </a>
+                    </h1>
+                    <nav>
+                        <ul class="main-nav">
+                            <li><a href="coffee.html">MENU</a>
+                                <div class="full-drop">
+                                    <div class="nav-box"></div>
+                                    <div class="drop-wrap">
+                                        <ul class="drop-down">
+                                            <li><a href="coffee.html">COFFEE</a></li>
+                                            <li><a href="cake.html">CAKE</a></li>
+                                        </ul>
+                                        <ul class="drop-down">
+                                            <li><a href="brand.html">브랜드소개</a></li>
+                                            <li><a href="place.html">오시는길</a></li>
+                                        </ul>
+                                        <ul class="drop-down">
+                                            <li><a href="news.html">공지사항</a></li>
+                                            <li><a href="event.html">이벤트</a></li>
+                                        </ul>
+                                        <ul class="drop-down">
+                                            <li><a href="store.html">매장안내</a></li>
+                                            <li><a href="franchise.html">가맹점문의</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="brand.html">BRAND</a></li>
+                            <li><a href="news.html">NEWS</a></li>
+                            <li><a href="store.html">STORE</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="slider-wrap">
+                <div class="slider">
+                    <div><img src="images/main/s2.jpg" alt="슬라이더1"></div>
+                    <div><img src="images/main/s1.jpg" alt="슬라이더2"></div>
+                    <div><img src="images/main/s3.jpg" alt="슬라이더3"></div>
+                    <div><img src="images/main/s4.png" alt="슬라이더4"></div>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="images/main/b1.jpg" alt="배너이미지">
+                <img src="images/main/b2.jpg" alt="배너이미지">
+                <img src="images/main/b3.jpg" alt="배너이미지">
+            </div>
+            <h2 class="title">PPO-cafe's choice</h2>
+            <div class="slider-container">
+                <div class="choice-wrap">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="images/main/cake1.jpg" alt="케이크이미지">
+                        </div>
+                        <div class="slide">
+                            <img src="images/main/cake2.jpg" alt="케이크이미지">
+                        </div>
+                        <div class="slide">
+                            <img src="images/main/cake3.jpg" alt="케이크이미지">
+                        </div>
+                        <div class="slide">
+                            <img src="images/main/cake4.jpg" alt="케이크이미지">
+                        </div>
+                    </div>
+                </div>
+                <button class="prev">이전</button>
+                <button class="next">다음</button>
+            </div>
+            <div class="more">MORE</div>
+            <div class="more-content">
+                <div class="thum">
+                    <a href="cake.html">
+                        <img src="images/main/cake-t5.jpg" alt="이미지">
+                    </a>
+                </div>
+                <div class="thum">
+                    <a href="cake.html">
+                        <img src="images/main/cake-t2.jpg" alt="이미지">
+                    </a>
+                </div>
+                <div class="thum">
+                    <a href="cake.html">
+                        <img src="images/main/cake-t3.jpg" alt="이미지">
+                    </a>
+                </div>
+                <div class="thum">
+                    <a href="cake.html">
+                        <img src="images/main/cake-t4.jpg" alt="이미지">
+                    </a>
+                </div>
+                <div class="thum">
+                    <a href="cake.html">
+                        <img src="images/main/cake-t1.jpg" alt="이미지">
+                    </a>
+                </div>
+                <div class="thum">
+                    <a href="cake.html">
+                        <img src="images/main/cake-t6.jpg" alt="이미지">
+                    </a>
+                </div>
+                <div class="thum">
+                    <a href="cake.html">
+                        <img src="images/main/cake-t7.jpg" alt="이미지">
+                    </a>
+                </div>
+                <div class="thum">
+                    <a href="cake.html">
+                        <img src="images/main/cake-t8.jpg" alt="이미지">
+                    </a>
+                </div>
+                <div class="thum">
+                    <a href="cake.html">
+                        <img src="images/main/cake-t9.jpg" alt="이미지">
+                    </a>
+                </div>
+                
+            </div>
+            <div class="box-wrap">
+                <div class="box1">
+                    <div class="text-box" id="t1">
+                        <a href="store.html">
+                            <h3>매장소개</h3>
+                            <p>가까운 곳에서 PPO-cafe를 만나보세요<br>
+                                전매장 검색 가능<br>
+                                매장안내란에서 검색하시면 쉽게 찾을수 있습니다.
+                            </p>
+                            <div>매장보기</div>
+                        </a>
+                    </div>
+                    <div class="text-box" id="t2">
+                        <a href="event.html">
+                            <h3>이벤트</h3>
+                            <p>PPO-cafe의 이벤트와 소식을 알려드립니다<br>
+                                카페 5주년 기념 이벤트<br>
+                                이벤트란에서 상세정보를 확인해주세요
+                            </p>
+                            <div>이벤트보기</div>
+                        </a>
+                    </div> 
+                </div>
+                <div class="box2-wrap">
+                    <div class="box2">
+                        <a href="#t1"><img src="images/main/store.jpg" alt="이미지"></a>
+                    </div>
+                    <div class="box3">
+                        <a href="#t2"><img src="images/main/event.jpg" alt="이미지"></a>
+                    </div>
+                </div>
+            </div>
+           
+
+        </div>
+        <footer>
+            <div class="footer-wrap">
+                <div class="info">
+                    상호 : PPO-cafe<br>
+                    주소 : 서울시 도봉구 방학동 <br>
+                    메일 : qhfka30604@naver.com <br>
+                    COPYRIGHT 2022 BY PPO-cafe ALL RIGHTS RESERVED  
+                </div>
+                <h2 class="info-img">
+                    <img src="images/logo5.png" alt="로고">
+                </h2>
+            </div>
+        </footer>
+    </body>
+</html>

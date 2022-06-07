@@ -1,0 +1,161 @@
+@charset "utf-8";
+.box{
+    padding: 5% 0;
+    /* 배경색 고민하기 */
+}
+
+.title-con{
+    display:flex;
+    justify-content: center;
+}
+.title-con h2{
+    padding:0 50px;
+}
+h2.brand{
+    margin:0;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.brand-wrap{
+    width: 60%;
+    max-width: 1320px;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+.brand-box{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.brand-img{
+    width:45%;
+    /* background-color:crimson; */
+}
+.brand-img img{
+    width: 100%;
+}
+.brand-text{
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;    
+}
+.text-tit{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffd520;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 1.3vw;
+    margin-bottom: 30px;
+}
+
+.brand-text>h3{
+    font-size: 1.2vw;
+    margin-bottom: 30px;
+    color: #ffd520;
+}
+.brand-text>p{
+    text-align: center;
+    color: #ffd520;
+
+}
+
+
+@media screen and (max-width:1000px){
+    .brand{
+        font-size: 2.5vw;
+    }
+    .brand-wrap{
+        width: 90%;
+    }
+    .text-tit{
+        width: 50px;
+        height: 50px;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+    .brand-text>h3{
+        font-size: 2vw;
+    }
+    .brand-text>p{
+        padding: 0 10px;
+        font-size: 1.5vw;
+    }
+
+
+    h2.place,
+    h2.brand{
+        font-size: 3vw;
+        display:block !important;
+        
+    }
+}
+@media screen and (max-width:640px){
+    .text-tit{
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom:5px;
+    }
+    .brand-text>h3{
+        margin-bottom: 10px;
+    }
+
+    h2.brand,
+    h2.place{
+        font-size: 3.5vw;
+    }
+    
+}
+@media screen and (max-width:450px){
+
+    .text-tit{
+        width: 30px;
+        height: 30px;
+        margin-top: 0;
+        font-size: 3.5vw;
+        margin-bottom: 15px;
+    }
+    .brand-text>h3{
+        font-size:4vw;
+        margin-bottom: 20px;
+    }
+    .brand-text>p{
+        padding: 0 10px;
+        font-size: 3vw;
+        margin-bottom: 20px;
+    }
+    
+    h2.brand,
+    h2.place{
+        font-size: 5vw;
+    }
+    .brand-box{
+        flex-direction: column;
+    }
+    .brand-box:nth-child(even){
+        flex-direction: column-reverse;
+    }
+    .brand-img,
+    .brand-text{
+        width: 90%;
+        margin: auto;
+    }
+    .brand-text{
+       padding: 10px;
+    }
+    
+}

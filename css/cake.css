@@ -1,0 +1,93 @@
+@charset "utf-8";
+.box{
+    padding: 5% 0;
+    
+}
+.title-con{
+    display:flex;
+    justify-content: center;
+}
+.title-con h2{
+    padding:0 50px;
+}
+h2.cake{
+    margin:0;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+
+.thum-wrap{
+    width: 60%;
+    max-width: 1320px;
+    margin: auto;
+    /* background-color: #C4B5B5; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0 20px;
+}
+
+.thum-box{
+    width: 23%;
+    margin:20px 0;
+
+}
+.thum-box img{
+    width: 100%;
+}
+.thum-box p{
+    text-align: center;
+    margin: 0;
+    font-size: 1.1em;
+}
+.box{
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width:1000px){
+    h2.cake,
+    h2.coffee{
+        font-size: 3vw;
+        display:block !important;
+        color:white;
+    }
+    
+    .thum-box p{
+        font-size: 1.8vw;
+    }
+    .thum-wrap{
+        width: 70%;
+    }
+}
+@media screen and (max-width:640px){
+    h2.cake,
+    h2.coffee{
+        font-size: 3.5vw;
+    }
+    .thum-box p{
+        font-size: 2vw;
+    }
+    .thum-wrap{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:450px){
+    .thum-wrap{
+        width: 90%;
+    }
+    .thum-box{
+        width: 46%;
+    }
+    h2.cake,
+    h2.coffee{
+        font-size: 5.5vw;
+    }
+    .thum-box p{
+        font-size: 4vw;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+}
